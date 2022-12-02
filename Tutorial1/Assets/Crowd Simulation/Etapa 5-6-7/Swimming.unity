@@ -249,10 +249,11 @@ MonoBehaviour:
   numFish: 50
   allFish: []
   swimLimits: {x: 5, y: 5, z: 5}
-  minSpeed: 1
-  maxSpeed: 2
-  neighbourDistance: 2.86
-  rotationSpeed: 2.06
+  goalPos: {x: 0, y: 0, z: 0}
+  minSpeed: 0.3
+  maxSpeed: 1.2
+  neighbourDistance: 7
+  rotationSpeed: 3
 --- !u!4 &588903888
 Transform:
   m_ObjectHideFlags: 0
