@@ -440,7 +440,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   patientPrefab: {fileID: 1461964574697295440, guid: 7e090c05eea307f43b847bf4b8ec5b8e, type: 3}
-  numPatients: 5
+  numPatients: 0
 --- !u!4 &502083202
 Transform:
   m_ObjectHideFlags: 0
@@ -1220,14 +1220,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 923270855, guid: 51e437be22296b340954bf6591a60065, type: 3}
-      propertyPath: m_Speed
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 923270856, guid: 51e437be22296b340954bf6591a60065, type: 3}
-      propertyPath: afterEffects.Array.data[0].key
-      value: patientPickedup
-      objectReference: {fileID: 0}
     - target: {fileID: 177407082141715887, guid: 51e437be22296b340954bf6591a60065, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1278,36 +1270,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51e437be22296b340954bf6591a60065, type: 3}
---- !u!1 &923270854 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2618188073631541129, guid: 51e437be22296b340954bf6591a60065, type: 3}
-  m_PrefabInstance: {fileID: 923270853}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &923270855
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 923270854}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da44ca8de51cf374d94f8e3978162ab0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  actionName: Action
-  cost: 1
-  target: {fileID: 0}
-  targetTag: 
-  duration: 0
-  preConditions:
-  - key: patientPickedup
-    value: 0
-  afterEffects:
-  - key: treatPatient
-    value: 0
-  agent: {fileID: 0}
-  running: 0
 --- !u!1 &924928973
 GameObject:
   m_ObjectHideFlags: 0
@@ -4536,14 +4498,6 @@ PrefabInstance:
     - target: {fileID: 1474622781416293316, guid: 7e090c05eea307f43b847bf4b8ec5b8e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8730294807668800635, guid: 7e090c05eea307f43b847bf4b8ec5b8e, type: 3}
-      propertyPath: duration
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8730294807668800638, guid: 7e090c05eea307f43b847bf4b8ec5b8e, type: 3}
-      propertyPath: duration
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e090c05eea307f43b847bf4b8ec5b8e, type: 3}
